@@ -1,0 +1,273 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+body {
+    margin: 0;
+}
+header {
+    background: linear-gradient(to right, #111 , rgb(33, 57, 57));
+    width: 100%;
+    height: 710px;
+    overflow: hidden;
+}
+header nav {
+    width: 100%;
+    height: 95px;
+    background-color: #222;
+    margin: 0;
+    display: flex;
+    justify-content: flex-end;
+}
+header nav .parent-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 85%;
+    height: 100%;
+}
+header nav .parent-nav .logo {
+    text-align: center;
+}
+header nav .parent-nav .logo h1 {
+    font-size: 55px;
+    color: #5cd2b9;
+    margin: -10px;
+}
+header nav .parent-nav .logo p {
+    color: white;
+    font-size: 5px;
+    letter-spacing: 4px;
+}
+
+header nav .parent-nav .information {
+    margin-right: 15%;
+    padding-bottom: 15px;
+}
+header nav .parent-nav .information a {
+    color: white;
+    text-decoration: none;
+    margin-right: 30px;
+    font-size: 14px;
+}
+header nav .parent-nav .information i {
+    color: #5cd2b9;
+}
+/* contact header */
+header .contact-header {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    width: 85%;
+    margin-left: 14.2%;
+    height: 100%;
+}
+header .contact-header img {
+    width: 570px;
+    height: 670px;
+    position: relative;
+    top: -55px;
+    right: -10px;
+}
+header .contact-header ._image span {
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to right, #111 , rgb(33, 57, 57));
+    position: absolute;
+    top: 0;
+    right: 0;
+    opacity: .35;
+}
+
+/* something information */
+header .contact-header .about {
+    margin: 0 auto;
+    margin-top: 70px;
+    position: relative;
+    left: 4%;
+}
+header .contact-header .about h4 {
+    color: #5cd2b9;
+    margin-bottom: 15px;
+    font-size: 14px;
+    letter-spacing: 4px;
+}
+header .contact-header .about h1 {
+    color: white;
+    font-size: 58px;
+    margin: 0;
+    position: relative;
+    width: 540px;
+}
+header .contact-header .about h1::after {
+    content: '';
+    width: 80px;
+    height: 2px;
+    background-color: #5cd2b9;
+    position: absolute;
+    left: 0;
+    top: 155px;
+} 
+header .contact-header .about h1 span {
+    color: #5cd2b9;
+}
+header .contact-header .about p {
+    color: #999;
+    font-size: 13px;
+    line-height: 25px;
+    margin-top: 30px;
+}
+
+/* vedio icon */
+
+header .contact-header .about .vedio-icon {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 200px;
+    height: fit-content;
+    position: relative;
+}
+header .contact-header .about .vedio-icon .icon-1 {
+    width: 65px;
+    height: 65px;
+    background-color: #41635c;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 3px solid  #41635c ;
+    border-left: 3px solid #041814;
+    border-right: 3px solid #041814;
+    border-top: 3px solid #041814;
+}
+header .contact-header .about .vedio-icon .icon-2 {
+    width: 59px;
+    height: 59px;
+    background-color: #098f74;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header .contact-header .about .vedio-icon .icon-3 {
+    width: 55px;
+    height: 55px;
+    background-color: #5cd2b9;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header .contact-header .about .vedio-icon i {
+    color: white;
+    font-size: larger;
+}
+header .contact-header .about .vedio-icon .about-behind {
+    position: relative;
+    bottom: 0;
+    left: 1px;
+}
+header .contact-header .about .vedio-icon div .about-behind-play {
+    color: white;
+    letter-spacing: 4px;
+    position: relative;
+}
+header .contact-header .about .vedio-icon div .about-behind-play::after {
+    content: '';
+    width: 90px;
+    height: 1.5px;
+    background-color: #4d4d4d;
+    position: absolute;
+    left: 0;
+    bottom: -20px;
+}
+
+header .contact-header .about .vedio-icon div .about-behind-play-2 {
+    color: #5cd2b9;
+    font-size: small;
+    position: absolute;
+    top: 68px;
+}
+
+
+
+/* start section-1 */
+
+.sec-1 {
+    background-color: black;
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: flex-end;
+    overflow: hidden;
+}
+.sec-1 .div-width {
+    width: 85%;
+    display: flex;
+    justify-content: space-between;
+}
+.sec-1 .div-sec-1 {
+    margin-top: 90px;
+}
+.sec-1 .div-sec-1 span {
+    color: #5cd2b9;
+    letter-spacing: 5px;
+    font-size: 15px;
+    font-weight: 700;
+}
+.sec-1 .div-sec-1 h1 {
+    color: white;
+    margin-top: 17px;
+    font-size: 46px;
+    position: relative;
+}
+.sec-1 .div-sec-1 h1::after {
+    content: '';
+    width: 90px;
+    height: 2px;
+    background-color: #5cd2b9;
+    position: absolute;
+    bottom: -20px;
+    left: 0;
+
+}
+.sec-1 .div-sec-1 h1 span {
+    color: #5cd2b9;
+    font-size: 50px;
+}
+.sec-1 .div-sec-1 p {
+    color: #999;
+    font-size: small;
+    line-height: 25px;
+    margin-bottom: 15px;
+}
+.sec-1 .div-sec-1 button {
+    width: 100px;
+    height: 45px;
+    background-color: #5cd2b9;
+    border: none;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    border-radius: 2px;
+    margin-top: 15px;
+}
+
+
+.sec-1 .div-sec-2 div {
+    display: flex;
+    position: relative;
+    right: 90px;
+    top: 30px;
+}
+.sec-1 .div-sec-2 div div {
+    width: 240px;
+    height: 190px;
+    margin: 10px;
+    background-color: #111;
+}
+.sec-1 .div-sec-2 div div img {
+    width: 50px;
+    height: 50px;
+}
